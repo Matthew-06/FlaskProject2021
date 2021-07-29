@@ -59,8 +59,29 @@ def talk():
     return render_template("talk.html")
 
 
+@app.route('/chatroom-Anxiety')
+def chatanx():
+    return render_template("chat-anx.html")
 
+@app.route('/chatroom-Bipolar')
+def chatbi():
+    return render_template("chat-bi.html")    
 
+@app.route('/chatroom-Depression')
+def chatdep():
+    return render_template("chat-dep.html")
+
+@app.route('/chatroom-ADHD')
+def chatad():
+    return render_template("chat-ad.html")
+
+@app.route('/chatroom-Stress')
+def chatstr():
+    return render_template("chat-str.html")
+
+@app.route('/chatroom-Schizophrenia')
+def chatsch():
+    return render_template("chat-sch.html")
 
 
 
