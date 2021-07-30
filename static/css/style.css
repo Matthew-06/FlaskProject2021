@@ -315,7 +315,23 @@ div {
   #Text{
     text-align: left;
     font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   #TextWhite{
     color:white
+  }
+  #cancelbutton{
+    background-color: red;
+    color: white;
+    margin-left: 13%;
+    margin-right: auto
+  }
+  #loginbutton{
+    background-color: #52B788;
+    color: white
+  }
+  #cancelbutton2{
+    background-color: red;
+    color: white;
   }

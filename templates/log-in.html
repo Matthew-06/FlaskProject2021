@@ -76,7 +76,7 @@
                 color: #52B788;
                 padding: 14px 20px;
                 margin: 8px 0;
-                border: 1px solid #52B788;
+                border: none;
                 cursor: pointer;
                 width: 100%;
             }
@@ -223,14 +223,14 @@
                 <input type="text" placeholder="Enter Username" name="uname" required>
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
-                <button type="submit" class="Login">Login</button>
+                <button id="loginbutton" type="submit" class="Login">Login</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                <button id="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'"
                     class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="https://5000-4770e44f-1df9-41fc-a010-c0c248f1e670.cs-us-east1-pkhd.cloudshell.dev/forgotpassword">password?</a></span>
             </div>
