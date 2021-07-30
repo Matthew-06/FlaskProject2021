@@ -42,7 +42,8 @@ div {
 
 #Picture{
     border-radius: 30%;
-    margin-left: 30%
+    margin-left: 27%;
+    text-align: center;    
 }
 
 
@@ -303,4 +304,8 @@ div {
     background-color: #52B788;
     text-align: center;
     color: white 
+  }
+  #Text{
+    text-align: left;
+    font-size: large;
   }
