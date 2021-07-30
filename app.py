@@ -49,7 +49,7 @@ def gethelsn():
 
 @app.route('/chatroom-signedin') 
 def chatrmsi():
-    return render_template("chatroom-singed.html")  
+    return render_template("chatroom-signedin.html")  
 
 @app.route('/talk-signedin')
 def talksi():
@@ -94,6 +94,29 @@ def chatstr():
 def chatsch():
     return render_template("chat-sch.html")
 
+@app.route('/chatroom-Anxiety-signedin')
+def chatanxsi():
+    return render_template("chat-anx-signedin.html")
+
+@app.route('/chatroom-Bipolar-signedin')
+def chatbisi():
+    return render_template("chat-bi-signedin.html")    
+
+@app.route('/chatroom-Depression-signedin')
+def chatdepsi():
+    return render_template("chat-dep-signedin.html")
+
+@app.route('/chatroom-ADHD-signedin')
+def chatadsi():
+    return render_template("chat-ad-signedin.html")
+
+@app.route('/chatroom-Stress-signedin')
+def chatstrsi():
+    return render_template("chat-str-signedin.html")
+
+@app.route('/chatroom-Schizophrenia-signedin')
+def chatschsi():
+    return render_template("chat-sch-signedin.html")
 
 
 
