@@ -93,6 +93,9 @@ def chatstr():
 @app.route('/chatroom-Schizophrenia')
 def chatsch():
     return render_template("chat-sch.html")
+@app.route('/info')
+def info():
+    return render_template("info.html")
 
 
 
