@@ -11,9 +11,9 @@ app = Flask(__name__)
 
 # -- Routes section --
 @app.route('/')
-@app.route('/index')
-def index(): 
-    return render_template("index.html")
+@app.route('/home')
+def home(): 
+    return render_template("home.html")
   
   
 
@@ -34,14 +34,10 @@ def signup():
     return render_template("sign-up.html")
 
 
-@app.route('/signed-in', methods= ["POST", "GET"])
+@app.route('/signed-in')
 def signedin():
-    print(request.form["uname"])
-    user_name = request.form["uname"]  
-    if request.method == "POST": 
-        return render_template("signed-in.html", user_name= user_name)
-    elif request.method == "get":
-        return "404 Error"
+    return render_template("signed-in.html")
+    
 
 @app.route('/gethelp-signedin')
 def gethelsn():
