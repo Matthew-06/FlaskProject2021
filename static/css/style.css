@@ -190,7 +190,43 @@ div {
   .msgln b.user-name-left {
     background: orangered;
   }
-
- #chat{
-        text-align: center;
-     }
+  
+  #chat{
+    text-align: center;
+  }
+  #Anxiety{
+    max-width:100%;
+    height: 305px;
+  }
+  #Depression{
+    max-width:100%;
+    height: 305px;
+  }
+  #ADHD{
+    max-width:100%;
+    height: 305px;
+  }
+  #Stress{
+    max-width:100%;
+    height: 305px;
+  }
+  #Schizophrenia{
+    max-width:100%;
+    height: 305px;
+  }
+  #ChatroomTitle{
+    min-height:100px;
+    width:100%;
+    background-color: #52B788;
+    text-align: center;
+    color: white
+  }
+  #Cards{
+    color: #52B788;
+  }
+  .card-body{
+    background-color: white;
+  }
+  .btn-primary{
+    background-color: #52B788 !important;
+  }
