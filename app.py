@@ -42,7 +42,18 @@ def signedin():
         return render_template("signed-in.html", user_name= user_name)
     elif request.method == "get":
         return "404 Error"
-  
+
+@app.route('/gethelp-signedin')
+def gethelsn():
+    return render_template("gethelp-signedin.html") 
+
+@app.route('/chatroom-signedin') 
+def chatrmsi():
+    return render_template("chatroom-singed.html")  
+
+@app.route('/talk-signedin')
+def talksi():
+    return render_template("talk-signedin.html")
 
 @app.route('/forgotpassword')
 def forgorpws():
