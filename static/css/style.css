@@ -15,13 +15,13 @@ div {
 }
 
 #BasicInfo {
-	color: white;
+	color: #52B788;
     font-family: "Cabin" , sans-serif;
     font-size: x-large 
 }
 
 #Slogan {
-	color: white;
+	color: #52B788;
     font-family: "Cabin" , sans-serif;
     font-size: x-large 
     
@@ -238,74 +238,84 @@ div {
   #LoginTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #SignupTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #AnxietyTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #BipolarTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #DepressionTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #ADHDTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #StressTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #SchizophreniaTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #GetHelpTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
   }
   #TalkTitle{
     min-height:100px;
     width:100%;
-    background-color: #52B788;
+    background-color: white;
     text-align: center;
-    color: white 
+    color: #52B788 
+  }
+  #ForgotPasswordTitle{
+    min-height:100px;
+    width:100%;
+    background-color: white;
+    text-align: center;
+    color: #52B788;
   }
   #Text{
     text-align: left;
     font-size: large;
+  }
+  #TextWhite{
+    color:white
   }
