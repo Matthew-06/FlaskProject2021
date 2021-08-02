@@ -348,6 +348,10 @@ div {
     max-width: 100%;
     max-height: 100%
   }
+  #MatthewPicture{
+    max-width: 100%;
+    max-height: 233px
+  }
   #FounderText{
     text-align: center;
     font-size: medium;
