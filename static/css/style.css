@@ -36,10 +36,8 @@ div {
     }
 
 #Picture{
-    max-width: 35%;
-    max-height: 350px;
     border-radius: 30%;
-    margin-left: 440px;
+    margin-left: 20px;
     text-align: center;    
 }
 
