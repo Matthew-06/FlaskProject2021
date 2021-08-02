@@ -315,6 +315,17 @@ div {
     margin-left: 50px;
     margin-right: 50px;
   }
+  #Text1{
+    text-align: left;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #ProblemPic{
+    text-align: right;
+    max-width: 30%;
+    max-height: 300px
+  }
   #TextWhite{
     color:white
   }
@@ -332,20 +343,13 @@ div {
     background-color: red;
     color: white;
   }
-  .column {
-    float: left;
-    width: 50%;
-  }
-
-/* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  #FounderPicture{
+  #ArchishmanPicture{
     max-width: 100%;
     max-height: 300px
+  }
+  #EmilyPicture{
+    max-width: 100%;
+    max-height: 100%
   }
   #FounderText{
     text-align: center;
