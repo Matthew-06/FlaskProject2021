@@ -117,6 +117,10 @@ def chatstrsi():
 def chatschsi():
     return render_template("chat-sch-signedin.html")
 
+@app.route('/secret-micropig')
+def micropig():
+    return render_template("secret.html")
+
 
 
 
