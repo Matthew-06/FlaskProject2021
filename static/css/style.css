@@ -23,7 +23,8 @@ div {
 }
 
 #SubText {
-	font-size: large;
+    font-size: large;
+    color: white;
 }
 
 #Logo{    
@@ -355,9 +356,4 @@ div {
   #FounderText{
     text-align: center;
     font-size: medium;
-  }
-  
-  #Text2{
-    color:white;
-    font-size: 20px
   }
